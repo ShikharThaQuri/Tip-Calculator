@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #7209b7;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+body p {
+  color: white;
+}
+
+.All {
+  width: 500px;
+  height: 550px;
+  background-image: url(five.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+.container {
+  margin: 20px 15px 20px 15px;
+}
+.container p {
+  font-size: 19px;
+  padding: 10px 0;
+}
+.style {
+  background-color: transparent;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.style span {
+  padding-left: 15px;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+}
+.style input {
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+  background-color: #7209b7;
+  border: none;
+  outline: none;
+  padding-left: 40px;
+  font-size: 20px;
+  color: white;
+}
+::placeholder {
+  color: #6d6875;
+}
+.container--bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.controls {
+  display: flex;
+  align-items: center;
+}
+.controls button {
+  background-color: #7209b7;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.controls button span {
+  color: white;
+}
+.splitAmount {
+  font-size: 30px;
+  color: white;
+  padding: 0 15px;
+}
+.total-per-person-contanar {
+  text-align: right;
+  color: white;
+  font-size: 30px;
+}
